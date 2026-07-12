@@ -43,7 +43,7 @@ export default function Home() {
       setIsImporting(true);
 
       const response = await fetch(
-        "http://localhost:5000/api/upload",
+         "https://groweasy-csv-importer-fiy1.onrender.com/api/upload",
         {
           method: "POST",
           headers: {
